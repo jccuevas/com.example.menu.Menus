@@ -100,6 +100,7 @@ public class Lienzo extends View implements OnTouchListener, OnScrollListener {
 
 			texto = "x=" + x + " y=" + y;
 			float l = paint.measureText(texto);
+			
 			dst.set((int) x, (int) y, (int) (x + l), (int) y + 40);
 			paint.setColor(Color.RED);
 
