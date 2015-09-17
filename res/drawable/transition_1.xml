@@ -1,0 +1,4 @@
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/fondo1" />
+    <item android:drawable="@drawable/fondo2" />
+</transition> 

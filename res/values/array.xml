@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menuprincipal">
+        <item>Ejemplos almacenamiento</item>
+        <item>Ejemplos fragmentos</item>
+        <item>Ejemplos fragmentos dinámicos</item>
+        <item>Ejemplos gráficos</item>
+        <item>Networking</item>
+        <item>Conectividad</item>
+        <item>Uso de Proveedores de Contenido y Loaders</item>
+        <item>Salir</item>
+    </string-array>
+    <string-array name="fragment_lista_menu">
+        <item>Elemento 1</item>
+        <item>Elemento 2</item>
+        <item>Elemento 3</item>
+        <item>Elemento 4</item>
+    </string-array>
+</resources>

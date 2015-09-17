@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:overScrollMode="ifContentScrolls" >
+    <TextView
+        android:id="@+id/connectivity_textView_foot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/uja"
+        android:text="@string/help_uja"
+        android:textAppearance="@style/blueSmall" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/connectivity_textView_foot"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/connectivity_textview_netlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connectivity_netlist"
+                android:textAppearance="@style/blueMed"
+                android:layout_marginLeft="5dp" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/connectivity_textView_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="always"
+                    android:scrollbars="vertical"
+                    android:text="@string/connectivity_result"
+                    android:textAppearance="@style/blueSmall" />
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/FrameLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_white" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/connectivity_search"
+                    android:textAppearance="@style/blueMed" 
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/connectivity_search"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:contentDescription="@string/connectivity_scan"
+                    android:onClick="onScan"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/wifi" />
+            </FrameLayout>
+
+            <ScrollView
+                android:id="@+id/connectivity_wifipower_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableLayout
+                    android:id="@+id/connectivity_wifipower"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </TableLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout_animaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="onTween"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/row_car_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/graficos_transition"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageViewTransition"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/content_graficos_transicion"
+                android:scaleType="fitXY"
+                android:src="@drawable/transition_1" />
+
+            <Button
+                android:id="@+id/graficos_button_transiton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:background="@drawable/button_disco"
+                android:onClick="onTransition" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragmentinfo_helptext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/graficos_tween"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageViewTween"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/content_graficos_tween"
+                android:scaleType="fitXY"
+                android:src="@drawable/android_logoblack" />
+
+            <Button
+                android:id="@+id/graficos_button_tween"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_disco"
+                android:onClick="onTween" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/graficos_frame"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageViewFrame"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/content_graficos_frame"
+                android:src="@anim/frame" />
+
+            <Button
+                android:id="@+id/graficos_button_frameAnimation"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_disco"
+                android:onClick="onFrame" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/contentdescription_logoandroid" >
+
+        <com.example.graphics.Lienzo
+            android:id="@+id/custom_drawable_lienzo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@drawable/paisaje" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/insetcielo"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragmentinfo_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="@string/graphics_inset"
+                android:textAppearance="@style/blueSmall"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/graphics_clip"
+                android:textAppearance="@style/blueMed"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView_logoandroid"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:contentDescription="@string/contentdescription_logoandroid"
+                android:scaleType="fitCenter"
+                android:src="@drawable/clip1" />
+
+            <TextView
+                android:id="@+id/wifipower_frecuency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/graphics_scale"
+                android:textAppearance="@style/blueMed"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/ImageView_logoandroidscale"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:contentDescription="@string/contentdescription_logoandroid"
+                android:scaleType="fitCenter"
+                android:src="@drawable/scale1" />
+
+            <TextView
+                android:id="@+id/graficos_scale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/blueMed" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+      <bitmap android:src="@drawable/cielo"
+        android:gravity="center" />
+    </item>
+    <item android:top="10dp" android:left="10dp">
+      <bitmap android:src="@drawable/nubes"
+        android:gravity="center" />
+    </item>
+
+</layer-list>

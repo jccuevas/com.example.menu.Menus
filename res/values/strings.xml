@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">Ejemplos</string>
+	<string name="app_graficos">Ejemplos gráficos</string>
+	<string name="app_help">Ayuda</string>
+	<string name="app_ficheros">Almacenamiento de Datos</string>
+	<string name="app_fragments">Manejo de fragmentos</string>
+	<string name="app_fragments_dinamicos">Manejo de fragmentos dinámicos</string>
+	<string name="app_networking">Networking</string>
+	<string name="app_connectivity">Conectividad</string>
+	<string name="app_provideruse">Uso de un Proveedor de Contenido</string>
+	
+	<string name="title_activity_menus">Menus</string>
+	
+	
+	<string name="settings">Configuración</string>
+	<string name="icon_edit">Edit icon</string>
+	<string name="conext_ver">Ver</string>
+	<string name="conext_borrar">Borrar</string>
+	<string name="contentdescription_logoandroid">Logo de Android</string>
+	
+	<string name="menu_settings">Configuración</string>
+	<string name="menu_exit">Salir</string>
+	<string name="menu_change">Cambiar</string>
+	<string name="menu_graficos_drawresource">Dibujar desde recurso</string>
+	<string name="menu_help">Ayuda</string>
+	<string name="menu_generico">Elemento de menú</string>
+	<string name="menu_files">Grabar datos</string>
+	
+	<string name="help_title">Ayuda de la aplicación de ejemplos</string>
+	<string name="help_text">Esta es una aplicación de la asignatura,
+		Aplicaciones para Telefonía Móvil de la titulación de Ingeniería de
+		Telecomunicación de la Universidad de Jaén
+	</string>
+	<string name="help_uja">Universidad de Jaén</string>
+	<string name="help_ninepatch">El fondo del TextView del pie de la pantalla es un
+		nine patch, revísalo para comprobar como funcionan
+	</string>
+	<string name="help_contents">Contenidos</string>
+	<string name="help_content_p1">En esta aplicación se podrán ver ejemplos de menús
+		de opciones, menús contextuales, listas y gráficos</string>
+		
+	
+	<string name="button_save">Grabar</string>
+		
+	
+	<string name="ficheros_textView_texto">Etiqueta</string>
+	<string name="ficheros_hint_texto">etiqueta del valor</string>
+	<string name="ficheros_hint_filename">nombre del fichero</string>
+	<string name="ficheros_numero">Valor</string>
+	<string name="ficheros_hint_valor">valor a guardar</string>
+	<string name="fragment_lista_remove">Borrar panel</string>
+	<string name="ficheros_textView_filename">Fichero</string>
+	<string name="ficheros_result">leído&#8230;</string>
+	<string name="ficheros_save">Grabar</string>
+	<string name="ficheros_external">Almacenamiento externo</string>
+	<string name="ficheros_internal">Almacenamiento interno</string>
+	<string name="ficheros_load">Cargar</string>
+	
+	
+	<string name="toast_saved">Grabado</string>
+	<string name="toast_loaded">Cargado</string>
+	<string name="toast_error">Error</string>
+	<string name="toast_error_nomedia">Error: no hay almacenamiento externo</string>
+	<string name="toast_todo">Operación pendiente</string>
+	<string name="menu_showPanel">Mostar</string>
+	<string name="menu_ocultar">Ocultar</string>
+	<string name="menu_replace">Reemplazar</string>
+	<string name="fragmentPanelInfo">¿Elemento pulsado?</string>
+	<string name="fragmentPanelMenuPulsa">Pulsar</string>
+	<string name="layout_fragment_titulo">Fragmento</string>
+	<string name="drawables_ejemploShapeDrawable">El fondo de este layout es un Shape Drawable</string>
+	<string name="drawables_ejemploStateDrawable">StateDrawable</string>
+	<string name="graficos_statebutton">StateDrawable</string>
+	<string name="content_graficos_transicion">Transición</string>
+	<string name="graficos_tween">Tween Animation</string>
+	<string name="graficos_frame">Frame animation</string>
+	<string name="content_graficos_frame">Frame animation</string>
+	<string name="content_graficos_tween">Tween animation</string>
+	<string name="main_title">Elige una opción</string>
+	<string name="graficos_transition">Transición</string>
+	<string name="network_url_URL">URL</string>
+	<string name="hint_network_url_URL">introduce la url</string>
+	<string name="fragment_navigation_connect">Usar Get</string>
+	<string name="fragment_navigation_post">Usar Post</string>
+	<string name="fragment_navigation_postparams">Datos post</string>
+	<string name="fragment_navigation_UsandoHTTP">Usando HTTP</string>
+	<string name="fragment_navigation_usandoSockets">Usando Sockets</string>
+	<string name="fragment_url_inicio">http://150.214.170.105:80</string>
+	<string name="connectivity_scan">Buscar</string>
+	<string name="connectivity_result">resultado&#8230;</string>
+	<string name="connectivity_code_startscan">Buscando wifi&#8230;</string>
+	<string name="ficheros_database">Almacenar en base de datos</string>
+	<string name="service_download">Download service</string>
+	<string name="fragment_navigation_startservice">Arrancar servicio</string>
+	<string name="row_car_brand">brand</string>
+	<string name="row_car_hp">hp</string>
+	<string name="panel_listapersonalizada">Lista personalizada</string>
+	<string name="icon_info">Icon info</string>
+	<string name="graphics_clip">Clip drawable</string>
+	<string name="graphics_inset">El fondo es un inset drawable</string>
+	<string name="graphics_scale">Scale drawable</string>
+	<string name="fragment_navigation_progress">Barra de progreso</string>
+	<string name="menu_startexample">Iniciar ejemplo</string>
+	<string name="menu_connectivity_description">En este ejemplo se mostrará una lista con las redes wifi que están registradas en el dispositivo, así como posibilitar un escaneo de las redes wifi dentro del alcance.</string>
+	<string name="menu_connectivity_networking">En este ejemplo se muestran diferentes formas de conexión a un recurso remoto, como a través de la clase HttpUrlConnection, sockets. Se muestra también la forma de crear tareas asíncronas y un ejemplo de Servicio</string>
+	<string name="connectivity_netlist">Lista de redes almacenada en el dispositivo</string>
+	<string name="wifipower_ssid">SSID</string>
+	<string name="wifipower_dbm">dBm</string>
+	<string name="connectivity_search">Buscar redes</string>
+	<string name="wifipower_hz">Hz</string>
+	<string name="network_url_browse">Ir</string>
+</resources>

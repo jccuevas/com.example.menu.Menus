@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/network_url_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/network_url_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/network_url_textView_URL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/network_url_URL"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/network_url_editText_URL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/hint_network_url_URL"
+            android:inputType="textUri"
+            android:text="@string/fragment_url_inicio" />
+
+        <Button
+            android:id="@+id/network_url_browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/network_url_browse" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/network_url_downloadprogress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

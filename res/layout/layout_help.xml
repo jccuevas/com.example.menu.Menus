@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_white" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/help_textView_ninepatch"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/help_textView_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/help_title"
+                android:textAppearance="@style/blueLarge" />
+
+            <TextView
+                android:id="@+id/help_textView_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/help_text"
+                android:textAppearance="@style/blackSmall" />
+
+            <TextView
+                android:id="@+id/row_car_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/help_contents"
+                android:textAppearance="@style/blueMed" />
+
+            <TextView
+                android:id="@+id/fragmentinfo_helptext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/help_content_p1"
+                android:textAppearance="@style/blackSmall" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/help_textView_foot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/uja"
+        android:text="@string/help_uja"
+        android:textAppearance="@style/blueSmall" />
+
+    <TextView
+        android:id="@+id/help_textView_ninepatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/help_textView_foot"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/popup_inline_error_above_holo_dark"
+        android:text="@string/help_ninepatch"
+        android:textAppearance="@style/blackSmall"
+        android:textStyle="italic" />
+
+</RelativeLayout>
